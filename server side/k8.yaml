@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: Maintanence1
 spec:
-  replicas: 3 # Number of instances of the application to run
+  replicas: 100
   selector:
     matchLabels:
       app: maintanence-1
