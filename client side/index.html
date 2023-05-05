@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Maintanence Log</h1>
+        <form id="inputForm">
+            <label for="name">User</label>
+            <input type="text" id="name" name="name" required>
+            <form id="inputForm" method="POST" action="submit.php">
+
+
+            <label for="name">Maintanence Type</label>
+            <input type="text" id="name" name="name" required>
+            <form id="inputForm" method="POST" action="submit.php">
+
+
+            
+            <label for="email">Date/Time</label>
+            <input type="datetime-local" name="timestampz" required />
+            <form id="inputForm" method="POST" action="submit.php">
+
+
+            
+            <label for="message">Notes</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <form id="inputForm" method="POST" action="submit.php">
+
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <button id="clearDataButton">Clear Data</button>
+
+</body>
+</html>
