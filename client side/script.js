@@ -1,3 +1,5 @@
+// this will load the content
+
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("inputForm");
     const results = document.createElement("div");
