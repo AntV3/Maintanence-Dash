@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const results = document.createElement("div");
     results.id = "results";
     document.body.appendChild(results);
+   
 
     const table = document.createElement("table");
     const header = document.createElement("tr");
